@@ -1,0 +1,109 @@
+.cabecalhoPrincipal .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.cabecalhoPrincipal-nav {
+	display: flex; 
+	
+}
+
+.cabecalhoPrincipal-nav-app {
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+}
+
+.conteudoPrincipal {
+	display: flex;
+}
+
+
+.mapaPrincipal {
+	display: flex;
+	justify-content: center;
+}
+
+/* -- Rodapé da página -- */
+
+.rodapePrincipal-navMap-list  {
+	display: flex;
+	flex-flow: column wrap;
+	height: 250px; 
+		
+}
+
+/* --- Parte referente a página de Contato -- */
+.contatoPrincipal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contatoPrincipal-flex-form li{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+	
+}
+
+/* Parte mobile */
+
+@media(max-width: 769px){
+
+	.conteudoPrincipal-texto1 {
+		display: none;
+	}
+
+	.conteudoPrincipal-texto2 {
+		display: block;
+	}
+	.cabecalhoPrincipal-nav{
+		flex-direction: column;
+		
+	}
+
+	.cabecalhoPrincipal .container {
+		flex-direction: column;
+		align-items: initial;
+		text-align: center;
+				
+	}
+
+	.cabecalhoPrincipal-nav-app {
+		order: -1;
+	}
+
+	.conteudoPrincipal {
+		flex-direction: column;
+	}
+
+	.logoEmpresa {
+		margin: auto;
+		width: 80%;
+	}
+
+	.mapaPrincipal {
+		margin: auto;
+		width: 100%;
+
+	}
+
+	.mapaPrincipal-imagem {
+		margin: auto;
+		width: 95%;
+
+	}
+
+	.rodapePrincipal-navMap-list {
+		flex-flow: column nowrap;
+	}
+
+	.rodapePrincipal {
+		height: 500px;
+	}
+	
+}
+
+
+
