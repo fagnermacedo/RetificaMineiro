@@ -84,6 +84,10 @@ body {
 	color: #FFF;
 }
 
+.rodapePrincipal-navMap-div {
+	margin: 15px;
+}
+
 .navmap-list-title {
 	font-weight: 700;
 	font-size: 1.3em;
